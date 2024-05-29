@@ -10,13 +10,13 @@ from prometheus_client import Gauge, start_http_server
 
 
 capture_stats_metrics = Gauge("capture_stats_metrics", "Capture Stats Metrics", [
-                              "host_name", "job_name", "job_id", "user"])
+                              "host_name", "job_name", "job_id", "user", "start_timestamp", "end_timestamp"])
 
 data_migration_stats_metrics = Gauge("data_migration_stats", "Data migration_stats", [
-                                     "source_hostname", "job_id", "job_name", "image_name", "user"])
+                                     "source_hostname", "job_id", "job_name", "image_name", "user", "start_timestamp", "end_timestamp"])
 
 discover_stats_metrics = Gauge("discover_stats", "Discover stats", [
-                               "host_name", "job_id", "job_name", "user", "original_ip"])
+                               "host_name", "job_id", "job_name", "user", "original_ip", "start_timestamp", "end_timestamp"])
 
 
 def collectCaptureStatsMetrics(capture_stats_payload):
@@ -26,12 +26,14 @@ def collectCaptureStatsMetrics(capture_stats_payload):
         job_id = metric["jobid"]
         user = metric["user"]
         status = metric["status_str"]
+        start_timestamp = metric["start_timestr"]
+        end_timestamp = metric["end_timestr"]
         if status == "Success":
             val = 1
         else:
             val = 0
         capture_stats_metrics.labels(
-            host_name=host_name, job_name=job_name, job_id=job_id, user=user).set(val)
+            host_name=host_name, job_name=job_name, job_id=job_id, user=user, start_timestamp=start_timestamp, end_timestamp=end_timestamp).set(val)
 
 
 def collectDataMigrationStatsMetrics(data_migration_stats_payload):
@@ -42,12 +44,14 @@ def collectDataMigrationStatsMetrics(data_migration_stats_payload):
         user = metric["user"]
         image_name = metric["image_name"]
         status = metric["status_str"]
+        start_timestamp = metric["start_timestr"]
+        end_timestamp = metric["end_timestr"]
         if status == "Success":
             val = 1
         else:
             val = 0
         data_migration_stats_metrics.labels(
-            source_hostname=source_hostname, job_name=job_name, job_id=job_id, user=user, image_name=image_name).set(val)
+            source_hostname=source_hostname, job_name=job_name, job_id=job_id, user=user, image_name=image_name, start_timestamp=start_timestamp, end_timestamp=end_timestamp).set(val)
 
 
 def collectDiscoverStatsMetrics(discover_stats_payload):
@@ -58,12 +62,14 @@ def collectDiscoverStatsMetrics(discover_stats_payload):
         user = metric["user"]
         original_ip = metric["original_ip"]
         status = metric["status_str"]
+        start_timestamp = metric["start_timestr"]
+        end_timestamp = metric["end_timestr"]
         if status == "Success":
             val = 1
         else:
             val = 0
         discover_stats_metrics.labels(host_name=host_name, job_name=job_name,
-                                      job_id=job_id, user=user, original_ip=original_ip).set(val)
+                                      job_id=job_id, user=user, original_ip=original_ip, start_timestamp=start_timestamp, end_timestamp=end_timestamp).set(val)
 
 
 def main():

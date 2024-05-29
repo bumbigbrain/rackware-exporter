@@ -72,7 +72,11 @@ def main():
     # for loop collect metrics
     while True:
         f = open("mock/mock-rackware.txt", "r")
-        data = json.load(f)
+
+        try:
+            data = json.load(f)
+        except:
+            continue
         jsonParsedData = data[0]["payload"]
         collectCaptureStatsMetrics(jsonParsedData["capture_stats"])
         time.sleep(1)

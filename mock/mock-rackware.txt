@@ -1,0 +1,4543 @@
+[
+  {
+    "header" :
+    {
+      "msgid": "RSP_JOB_QUERY",
+      "clientid": 6914,
+      "status": "STATUS_OK",
+      "handle": 1,
+      "payload": true,
+      "info": "job query",
+      "parentid": "CMD_JOB_QUERY",
+      "verbose": false,
+      "jobid": 66006,
+      "currentuser": "root"
+    },
+  "payload" :
+    {
+      "capture_stats":
+      [
+        {
+          "host_name": "WU4CRYSTAL",
+          "start_time": 1711107664720313,
+          "end_time": 1711150819491013,
+          "operation_status": true,
+          "friendlyname": "WU4CRYSTAL-Src",
+          "jobid": 63,
+          "jobname": "Wave01-WU4CRYSTAL-Src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:de:e1:75"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 22 11:41:04 2024",
+          "end_timestr": "Fri Mar 22 23:40:19 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1711622772709364,
+          "end_time": 1711691589159254,
+          "operation_status": false,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 178,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 10:46:12 2024",
+          "end_timestr": "Fri Mar 29 05:53:09 2024",
+          "status_str": "Failed",
+          "consumed_license": true
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1711622772717503,
+          "end_time": 1711647463864952,
+          "operation_status": false,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 179,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 10:46:12 2024",
+          "end_timestr": "Thu Mar 28 17:37:43 2024",
+          "status_str": "Failed",
+          "consumed_license": true
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1711647463875727,
+          "end_time": 1711677120202912,
+          "operation_status": false,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 194,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 17:37:43 2024",
+          "end_timestr": "Fri Mar 29 01:52:00 2024",
+          "status_str": "Failed",
+          "consumed_license": true
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1711677120213907,
+          "end_time": 1711695701456439,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 195,
+          "jobname": "Wave01-WA4SERVICE-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:e7:0b:ea"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 01:52:00 2024",
+          "end_timestr": "Fri Mar 29 07:01:41 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1711691589172283,
+          "end_time": 1711712588084477,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 200,
+          "jobname": "Wave01-WA4STAFF-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:d0:d0:70"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 05:53:09 2024",
+          "end_timestr": "Fri Mar 29 11:43:08 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1711695701471089,
+          "end_time": 1711755100398530,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 204,
+          "jobname": "Wave01-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 07:01:41 2024",
+          "end_timestr": "Fri Mar 29 23:31:40 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1711704139582746,
+          "end_time": 1711728695948665,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 240,
+          "jobname": "Wave01-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 09:22:19 2024",
+          "end_timestr": "Fri Mar 29 16:11:35 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1711704139592614,
+          "end_time": 1711741882193722,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 241,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 09:22:19 2024",
+          "end_timestr": "Fri Mar 29 19:51:22 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1711741882209395,
+          "end_time": 1711771604701781,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 287,
+          "jobname": "Wave01-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 19:51:22 2024",
+          "end_timestr": "Sat Mar 30 04:06:44 2024",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1711755100414557,
+          "end_time": 1711773295788368,
+          "operation_status": false,
+          "friendlyname": "INHWS1DEV1-src",
+          "jobid": 288,
+          "jobname": "Wave01-INHWS1DEV1-src",
+          "pair":
+          {
+
+          },
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 23:31:40 2024",
+          "end_timestr": "Sat Mar 30 04:34:55 2024",
+          "status_str": "Failed"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714376656546455,
+          "end_time": 1714399999715211,
+          "operation_status": true,
+          "friendlyname": "INHWS1DEV1-src02",
+          "jobid": 3611,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "pair":
+          {
+
+          },
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 07:44:16 2024",
+          "end_timestr": "Mon Apr 29 14:13:19 2024",
+          "status_str": "Success"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714401043822455,
+          "end_time": 1714401114147404,
+          "operation_status": false,
+          "friendlyname": "INHWS1DEV1-src02",
+          "jobid": 11683,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "pair":
+          {
+
+          },
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:30:43 2024",
+          "end_timestr": "Mon Apr 29 14:31:54 2024",
+          "status_str": "Failed"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714402717718579,
+          "end_time": 1714402791997666,
+          "operation_status": false,
+          "friendlyname": "INHWS1DEV1-src02",
+          "jobid": 11944,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "pair":
+          {
+
+          },
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:58:37 2024",
+          "end_timestr": "Mon Apr 29 14:59:51 2024",
+          "status_str": "Failed"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714403132869887,
+          "end_time": 1714434028193598,
+          "operation_status": true,
+          "friendlyname": "INHWS1DEV1-src03",
+          "jobid": 12065,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src03",
+          "pair":
+          {
+
+          },
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 15:05:32 2024",
+          "end_timestr": "Mon Apr 29 23:40:28 2024",
+          "status_str": "Success"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715400800348019,
+          "end_time": 1715405151989555,
+          "operation_status": false,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55919,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "user": "admin",
+          "start_timestr": "Sat May 11 04:13:20 2024",
+          "end_timestr": "Sat May 11 05:25:51 2024",
+          "status_str": "Failed",
+          "consumed_license": true
+        }
+      ],
+      "data_migration_stats":
+      [
+        {
+          "source_hostname": "INHWS1DEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHWS1DEV1-src",
+          "jobid": 3374,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src",
+          "pair":
+          {
+
+          },
+          "image_name": "INHWS1DEV1-img",
+          "start_time": 1714376023486639,
+          "end_time": 1714376211657705,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 07:33:43 2024",
+          "end_timestr": "Mon Apr 29 07:36:51 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "INHWS1DEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHWS1DEV1-src02",
+          "jobid": 11449,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "pair":
+          {
+
+          },
+          "image_name": "INHWS1DEV1-img02",
+          "start_time": 1714400154669321,
+          "end_time": 1714400226481315,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:15:54 2024",
+          "end_timestr": "Mon Apr 29 14:17:06 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "INHWS1DEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHWS1DEV1-src02",
+          "jobid": 11547,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "pair":
+          {
+
+          },
+          "image_name": "INHWS1DEV1-img02",
+          "start_time": 1714400399430520,
+          "end_time": 1714400469891640,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:19:59 2024",
+          "end_timestr": "Mon Apr 29 14:21:09 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "TLTNFSWEBDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 11776,
+          "jobname": "TLTNFSWEBDEV4-Wave-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "image_name": "TLTNFSWEBDEV4-img",
+          "start_time": 1714401384579782,
+          "end_time": 1714415060426889,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:36:24 2024",
+          "end_timestr": "Mon Apr 29 18:24:20 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHWS1DEV1",
+          "target_hostname": "INHWS1OCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "INHWS1DEV1-src03",
+          "target_friendlyname": "INHWS1OCIDEV",
+          "jobid": 13368,
+          "jobname": "INHWS1DEV1-Wave-INHWS1OCIDEV",
+          "pair":
+          {
+            "target_macs":
+            [
+              "02:00:17:02:11:3b"
+            ]
+          },
+          "first_pair_op": true,
+          "image_name": "INHWS1DEV1-img03",
+          "start_time": 1714446424058400,
+          "end_time": 1714452879026909,
+          "user": "admin",
+          "start_timestr": "Tue Apr 30 03:07:04 2024",
+          "end_timestr": "Tue Apr 30 04:54:39 2024",
+          "operation": "Assign",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 21557,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1714651369550042,
+          "end_time": 1714658620044112,
+          "user": "admin",
+          "start_timestr": "Thu May  2 12:02:49 2024",
+          "end_timestr": "Thu May  2 14:03:40 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 21558,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1714651369559748,
+          "end_time": 1714651555912545,
+          "user": "admin",
+          "start_timestr": "Thu May  2 12:02:49 2024",
+          "end_timestr": "Thu May  2 12:05:55 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 22122,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1714655618506180,
+          "end_time": 1714672181329582,
+          "user": "admin",
+          "start_timestr": "Thu May  2 13:13:38 2024",
+          "end_timestr": "Thu May  2 17:49:41 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "target_hostname": "AAFWS1OCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "target_friendlyname": "AAFWS1OCIDEV",
+          "jobid": 25695,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ],
+            "target_macs":
+            [
+              "02:00:17:01:55:8b"
+            ]
+          },
+          "first_pair_op": true,
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1714704844441213,
+          "end_time": 1714707707364709,
+          "user": "admin",
+          "start_timestr": "Fri May  3 02:54:04 2024",
+          "end_timestr": "Fri May  3 03:41:47 2024",
+          "operation": "Assign",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "target_hostname": "INHFSOCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "target_friendlyname": "INHFSOCIDEV",
+          "jobid": 25696,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ],
+            "target_macs":
+            [
+              "02:00:17:00:81:7f"
+            ]
+          },
+          "first_pair_op": true,
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1714704844452626,
+          "end_time": 1714713093978786,
+          "user": "admin",
+          "start_timestr": "Fri May  3 02:54:04 2024",
+          "end_timestr": "Fri May  3 05:11:33 2024",
+          "operation": "Assign",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 30074,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715144184025418,
+          "end_time": 1715150983170247,
+          "user": "admin",
+          "start_timestr": "Wed May  8 04:56:24 2024",
+          "end_timestr": "Wed May  8 06:49:43 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 30075,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1715144184036833,
+          "end_time": 1715144379172406,
+          "user": "admin",
+          "start_timestr": "Wed May  8 04:56:24 2024",
+          "end_timestr": "Wed May  8 04:59:39 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 30664,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1715144895272609,
+          "end_time": 1715159307598298,
+          "user": "admin",
+          "start_timestr": "Wed May  8 05:08:15 2024",
+          "end_timestr": "Wed May  8 09:08:27 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "target_hostname": "AAFWS1OCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "target_friendlyname": "AAFWS1OCIDEV",
+          "jobid": 34214,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ],
+            "target_macs":
+            [
+              "02:00:17:01:55:8b"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715151242308068,
+          "end_time": 1715152059053379,
+          "user": "admin",
+          "start_timestr": "Wed May  8 06:54:02 2024",
+          "end_timestr": "Wed May  8 07:07:39 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "target_hostname": "AAFWS1OCIDEV-TE",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "target_friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 35363,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ],
+            "target_macs":
+            [
+              "02:00:17:02:93:08"
+            ]
+          },
+          "first_pair_op": true,
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715152925075489,
+          "end_time": 1715155660350072,
+          "user": "admin",
+          "start_timestr": "Wed May  8 07:22:05 2024",
+          "end_timestr": "Wed May  8 08:07:40 2024",
+          "operation": "Assign",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "target_hostname": "",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "target_friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 39368,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ],
+            "target_macs":
+            [
+              "02:00:17:02:93:08"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715158968795799,
+          "end_time": 1715159796255386,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:02:48 2024",
+          "end_timestr": "Wed May  8 09:16:36 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "target_hostname": "INHFSOCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "target_friendlyname": "INHFSOCIDEV",
+          "jobid": 39832,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ],
+            "target_macs":
+            [
+              "02:00:17:00:81:7f"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1715160019268918,
+          "end_time": 1715162921207548,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:20:19 2024",
+          "end_timestr": "Wed May  8 10:08:41 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 43046,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715165555169515,
+          "end_time": 1715171564038203,
+          "user": "admin",
+          "start_timestr": "Wed May  8 10:52:35 2024",
+          "end_timestr": "Wed May  8 12:32:44 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "target_hostname": "AAFWS1OCIDEV",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "target_friendlyname": "AAFWS1OCIDEV",
+          "jobid": 45705,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ],
+            "target_macs":
+            [
+              "02:00:17:02:48:27"
+            ]
+          },
+          "first_pair_op": true,
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715172785320946,
+          "end_time": 1715175502673885,
+          "user": "admin",
+          "start_timestr": "Wed May  8 12:53:05 2024",
+          "end_timestr": "Wed May  8 13:38:22 2024",
+          "operation": "Assign",
+          "status_str": "Success",
+          "consumed_license": true
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": false,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 46244,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1715220579288413,
+          "end_time": 1715220844109529,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:09:39 2024",
+          "end_timestr": "Thu May  9 02:14:04 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "TLTNFSWEBDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 46245,
+          "jobname": "Wave01-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "image_name": "TLTNFSWEBDEV4-img",
+          "start_time": 1715220579297656,
+          "end_time": 1715234104558483,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:09:39 2024",
+          "end_timestr": "Thu May  9 05:55:04 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 46305,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1715220961629703,
+          "end_time": 1715243677971106,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:16:01 2024",
+          "end_timestr": "Thu May  9 08:34:37 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4SERVICE",
+          "operation_status": true,
+          "source_friendlyname": "WA4SERVICE-src",
+          "jobid": 47544,
+          "jobname": "Wave01-WA4SERVICE-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:e7:0b:ea"
+            ]
+          },
+          "image_name": "WA4SERVICE-img",
+          "start_time": 1715225678419566,
+          "end_time": 1715233076871459,
+          "user": "admin",
+          "start_timestr": "Thu May  9 03:34:38 2024",
+          "end_timestr": "Thu May  9 05:37:56 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4STAFF",
+          "operation_status": true,
+          "source_friendlyname": "WA4STAFF-src",
+          "jobid": 47545,
+          "jobname": "Wave01-WA4STAFF-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:d0:d0:70"
+            ]
+          },
+          "image_name": "WA4STAFF-img",
+          "start_time": 1715225678428507,
+          "end_time": 1715234368949657,
+          "user": "admin",
+          "start_timestr": "Thu May  9 03:34:38 2024",
+          "end_timestr": "Thu May  9 05:59:28 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 48140,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715234976896352,
+          "end_time": 1715241364328245,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:09:36 2024",
+          "end_timestr": "Thu May  9 07:56:04 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 48141,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715234976912476,
+          "end_time": 1715237689371859,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:09:36 2024",
+          "end_timestr": "Thu May  9 06:54:49 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 48142,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715234976919022,
+          "end_time": 1715238493981487,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:09:36 2024",
+          "end_timestr": "Thu May  9 07:08:13 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 49218,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715245913974571,
+          "end_time": 1715250780419972,
+          "user": "admin",
+          "start_timestr": "Thu May  9 09:11:53 2024",
+          "end_timestr": "Thu May  9 10:33:00 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 50636,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715251661445798,
+          "end_time": 1715253353678606,
+          "user": "admin",
+          "start_timestr": "Thu May  9 10:47:41 2024",
+          "end_timestr": "Thu May  9 11:15:53 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 50966,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715306626298850,
+          "end_time": 1715312305982335,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:03:46 2024",
+          "end_timestr": "Fri May 10 03:38:25 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 50967,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715306626315075,
+          "end_time": 1715308525001548,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:03:46 2024",
+          "end_timestr": "Fri May 10 02:35:25 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 50968,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715306626322033,
+          "end_time": 1715308063028654,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:03:46 2024",
+          "end_timestr": "Fri May 10 02:27:43 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 54602,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715395187698807,
+          "end_time": 1715399977962391,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:39:47 2024",
+          "end_timestr": "Sat May 11 03:59:37 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 54608,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715395201694506,
+          "end_time": 1715397046426316,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:40:01 2024",
+          "end_timestr": "Sat May 11 03:10:46 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 54609,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715395201703023,
+          "end_time": 1715396800520774,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:40:01 2024",
+          "end_timestr": "Sat May 11 03:06:40 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 54826,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715396813531834,
+          "end_time": 1715396816338874,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:06:53 2024",
+          "end_timestr": "Sat May 11 03:06:56 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 54835,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715396873533135,
+          "end_time": 1715398088655069,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:07:53 2024",
+          "end_timestr": "Sat May 11 03:28:08 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 54860,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715397053534290,
+          "end_time": 1715397056563949,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:10:53 2024",
+          "end_timestr": "Sat May 11 03:10:56 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 54869,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715397113534551,
+          "end_time": 1715398367154462,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:11:53 2024",
+          "end_timestr": "Sat May 11 03:32:47 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55006,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715398133548520,
+          "end_time": 1715399297725646,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:28:53 2024",
+          "end_timestr": "Sat May 11 03:48:17 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 55039,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715398373549991,
+          "end_time": 1715398376512936,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:32:53 2024",
+          "end_timestr": "Sat May 11 03:32:56 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 55048,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715398433553985,
+          "end_time": 1715399648917797,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:33:53 2024",
+          "end_timestr": "Sat May 11 03:54:08 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55289,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img",
+          "start_time": 1715399333562719,
+          "end_time": 1715400582055578,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:48:53 2024",
+          "end_timestr": "Sat May 11 04:09:42 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 55441,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715399693565832,
+          "end_time": 1715401199686364,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:54:53 2024",
+          "end_timestr": "Sat May 11 04:19:59 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 55588,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715399993570015,
+          "end_time": 1715399997685827,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:59:53 2024",
+          "end_timestr": "Sat May 11 03:59:57 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 55597,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715400053570719,
+          "end_time": 1715404658648465,
+          "user": "admin",
+          "start_timestr": "Sat May 11 04:00:53 2024",
+          "end_timestr": "Sat May 11 05:17:38 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 57311,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715407101075526,
+          "end_time": 1715419639253510,
+          "user": "admin",
+          "start_timestr": "Sat May 11 05:58:21 2024",
+          "end_timestr": "Sat May 11 09:27:19 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 58067,
+          "jobname": "Wave-3May24-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715418621601548,
+          "end_time": 1715423293250634,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:10:21 2024",
+          "end_timestr": "Sat May 11 10:28:13 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 58068,
+          "jobname": "Wave-3May24-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715418621616210,
+          "end_time": 1715420018543649,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:10:21 2024",
+          "end_timestr": "Sat May 11 09:33:38 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 58248,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715419954019256,
+          "end_time": 1715421172421003,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:32:34 2024",
+          "end_timestr": "Sat May 11 09:52:52 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 59070,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715423590293274,
+          "end_time": 1715425276109148,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:33:10 2024",
+          "end_timestr": "Sat May 11 11:01:16 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 59071,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715423590306505,
+          "end_time": 1715425212775940,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:33:10 2024",
+          "end_timestr": "Sat May 11 11:00:12 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 59097,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715423624880840,
+          "end_time": 1715428188982959,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:33:44 2024",
+          "end_timestr": "Sat May 11 11:49:48 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 60528,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1715439623195848,
+          "end_time": 1715446314193496,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:00:23 2024",
+          "end_timestr": "Sat May 11 16:51:54 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": false,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 60688,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1715440343532523,
+          "end_time": 1715440519142555,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:12:23 2024",
+          "end_timestr": "Sat May 11 15:15:19 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "WA4SERVICE",
+          "operation_status": true,
+          "source_friendlyname": "WA4SERVICE-src",
+          "jobid": 60689,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:e7:0b:ea"
+            ]
+          },
+          "image_name": "WA4SERVICE-img",
+          "start_time": 1715440343560651,
+          "end_time": 1715445934119958,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:12:23 2024",
+          "end_timestr": "Sat May 11 16:45:34 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4STAFF",
+          "operation_status": true,
+          "source_friendlyname": "WA4STAFF-src",
+          "jobid": 60690,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:d0:d0:70"
+            ]
+          },
+          "image_name": "WA4STAFF-img",
+          "start_time": 1715440343567915,
+          "end_time": 1715446704370714,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:12:23 2024",
+          "end_timestr": "Sat May 11 16:58:24 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSWEBDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 60691,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "image_name": "TLTNFSWEBDEV4-img",
+          "start_time": 1715440343579791,
+          "end_time": 1715453893560646,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:12:23 2024",
+          "end_timestr": "Sat May 11 18:58:13 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": false,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 60692,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1715440343586172,
+          "end_time": 1715440534173282,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:12:23 2024",
+          "end_timestr": "Sat May 11 15:15:34 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 60796,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1715440859982492,
+          "end_time": 1715455944362867,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:20:59 2024",
+          "end_timestr": "Sat May 11 19:32:24 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 60797,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1715440859995313,
+          "end_time": 1715460434278751,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:20:59 2024",
+          "end_timestr": "Sat May 11 20:47:14 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 61072,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715567783730575,
+          "end_time": 1715569118683835,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:36:23 2024",
+          "end_timestr": "Mon May 13 02:58:38 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 61073,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715567783746941,
+          "end_time": 1715569278620650,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:36:23 2024",
+          "end_timestr": "Mon May 13 03:01:18 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 61074,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1715567783752764,
+          "end_time": 1715572797644042,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:36:23 2024",
+          "end_timestr": "Mon May 13 03:59:57 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 61416,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715569283748996,
+          "end_time": 1715569286855040,
+          "user": "admin",
+          "start_timestr": "Mon May 13 03:01:23 2024",
+          "end_timestr": "Mon May 13 03:01:26 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 61425,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1715569343749742,
+          "end_time": 1715570676764980,
+          "user": "admin",
+          "start_timestr": "Mon May 13 03:02:23 2024",
+          "end_timestr": "Mon May 13 03:24:36 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 62812,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715573423767393,
+          "end_time": 1715574763416416,
+          "user": "admin",
+          "start_timestr": "Mon May 13 04:10:23 2024",
+          "end_timestr": "Mon May 13 04:32:43 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 63135,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715575500087714,
+          "end_time": 1715576723324575,
+          "user": "admin",
+          "start_timestr": "Mon May 13 04:45:00 2024",
+          "end_timestr": "Mon May 13 05:05:23 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 63419,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715577623786891,
+          "end_time": 1715578747950086,
+          "user": "admin",
+          "start_timestr": "Mon May 13 05:20:23 2024",
+          "end_timestr": "Mon May 13 05:39:07 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65113,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715878825102077,
+          "end_time": 1715880668924500,
+          "user": "admin",
+          "start_timestr": "Thu May 16 17:00:25 2024",
+          "end_timestr": "Thu May 16 17:31:08 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65116,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1715965225484687,
+          "end_time": 1715966924046262,
+          "user": "admin",
+          "start_timestr": "Fri May 17 17:00:25 2024",
+          "end_timestr": "Fri May 17 17:28:44 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 65119,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1716044425830393,
+          "end_time": 1716052073533875,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 17:07:53 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 65120,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1716044425863507,
+          "end_time": 1716060137377034,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 19:22:17 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4SERVICE",
+          "operation_status": true,
+          "source_friendlyname": "WA4SERVICE-src",
+          "jobid": 65121,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:e7:0b:ea"
+            ]
+          },
+          "image_name": "WA4SERVICE-img",
+          "start_time": 1716044425873913,
+          "end_time": 1716050412173612,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 16:40:12 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4STAFF",
+          "operation_status": true,
+          "source_friendlyname": "WA4STAFF-src",
+          "jobid": 65122,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:d0:d0:70"
+            ]
+          },
+          "image_name": "WA4STAFF-img",
+          "start_time": 1716044425880507,
+          "end_time": 1716051174054043,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 16:52:54 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSWEBDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 65123,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "image_name": "TLTNFSWEBDEV4-img",
+          "start_time": 1716044425887381,
+          "end_time": 1716056529637209,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 18:22:09 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": false,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 65124,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1716044425894124,
+          "end_time": 1716044627945738,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:00:25 2024",
+          "end_timestr": "Sat May 18 15:03:47 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65127,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716051625858560,
+          "end_time": 1716053491402478,
+          "user": "admin",
+          "start_timestr": "Sat May 18 17:00:25 2024",
+          "end_timestr": "Sat May 18 17:31:31 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65130,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716138026236244,
+          "end_time": 1716139947160803,
+          "user": "admin",
+          "start_timestr": "Sun May 19 17:00:26 2024",
+          "end_timestr": "Sun May 19 17:32:27 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65133,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716224426615849,
+          "end_time": 1716226202244296,
+          "user": "admin",
+          "start_timestr": "Mon May 20 17:00:26 2024",
+          "end_timestr": "Mon May 20 17:30:02 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65346,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716310826988156,
+          "end_time": 1716312541713549,
+          "user": "admin",
+          "start_timestr": "Tue May 21 17:00:26 2024",
+          "end_timestr": "Tue May 21 17:29:01 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65349,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716397227365852,
+          "end_time": 1716399095569220,
+          "user": "admin",
+          "start_timestr": "Wed May 22 17:00:27 2024",
+          "end_timestr": "Wed May 22 17:31:35 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65390,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716483627744919,
+          "end_time": 1716486031527614,
+          "user": "admin",
+          "start_timestr": "Thu May 23 17:00:27 2024",
+          "end_timestr": "Thu May 23 17:40:31 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65465,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716570028127488,
+          "end_time": 1716571967305755,
+          "user": "admin",
+          "start_timestr": "Fri May 24 17:00:28 2024",
+          "end_timestr": "Fri May 24 17:32:47 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFWS1DEV4",
+          "operation_status": true,
+          "source_friendlyname": "AAFWS1DEV4-src",
+          "jobid": 65468,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a7:ba:81"
+            ]
+          },
+          "image_name": "AAFWS1DEV4-img",
+          "start_time": 1716649228482424,
+          "end_time": 1716656735260697,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 17:05:35 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "INHFSDEV1",
+          "operation_status": true,
+          "source_friendlyname": "INHFSDEV1-src",
+          "jobid": 65469,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:96:6c:a4"
+            ]
+          },
+          "image_name": "INHFSDEV1-img",
+          "start_time": 1716649228520822,
+          "end_time": 1716665278511012,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 19:27:58 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4SERVICE",
+          "operation_status": true,
+          "source_friendlyname": "WA4SERVICE-src",
+          "jobid": 65470,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:e7:0b:ea"
+            ]
+          },
+          "image_name": "WA4SERVICE-img",
+          "start_time": 1716649228527954,
+          "end_time": 1716656200610661,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 16:56:40 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "WA4STAFF",
+          "operation_status": true,
+          "source_friendlyname": "WA4STAFF-src",
+          "jobid": 65471,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:d0:d0:70"
+            ]
+          },
+          "image_name": "WA4STAFF-img",
+          "start_time": 1716649228539884,
+          "end_time": 1716657035341860,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 17:10:35 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSWEBDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 65472,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:23:8e:77"
+            ]
+          },
+          "image_name": "TLTNFSWEBDEV4-img",
+          "start_time": 1716649228547494,
+          "end_time": 1716660982320561,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 18:16:22 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "TLTNFSSRVDEV4",
+          "operation_status": true,
+          "source_friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 65473,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:aa:63:03"
+            ]
+          },
+          "image_name": "TLTNFSSRVDEV4-img",
+          "start_time": 1716649228557185,
+          "end_time": 1716665768242656,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:00:28 2024",
+          "end_timestr": "Sat May 25 19:36:08 2024",
+          "status_str": "Success"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65475,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716656428509882,
+          "end_time": 1716657867216038,
+          "user": "admin",
+          "start_timestr": "Sat May 25 17:00:28 2024",
+          "end_timestr": "Sat May 25 17:24:27 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65478,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716742828895246,
+          "end_time": 1716744174152534,
+          "user": "admin",
+          "start_timestr": "Sun May 26 17:00:28 2024",
+          "end_timestr": "Sun May 26 17:22:54 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA3DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65590,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:ac:13:41"
+            ]
+          },
+          "image_name": "AAFBA3DEV4-img02",
+          "start_time": 1716829229277436,
+          "end_time": 1716830604379268,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:00:29 2024",
+          "end_timestr": "Mon May 27 17:23:24 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA2DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA2DEV4-src",
+          "jobid": 65591,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:a0:9e:30"
+            ]
+          },
+          "image_name": "AAFBA2DEV4-img",
+          "start_time": 1716829229298161,
+          "end_time": 1716832559016262,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:00:29 2024",
+          "end_timestr": "Mon May 27 17:55:59 2024",
+          "status_str": "Failed"
+        },
+        {
+          "source_hostname": "AAFBA1DEV4",
+          "operation_status": false,
+          "source_friendlyname": "AAFBA1DEV4-src",
+          "jobid": 65592,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "pair":
+          {
+            "origin_macs":
+            [
+              "50:6b:8d:82:0b:a6"
+            ]
+          },
+          "image_name": "AAFBA1DEV4-img",
+          "start_time": 1716829229308805,
+          "end_time": 1716836782514398,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:00:29 2024",
+          "end_timestr": "Mon May 27 19:06:22 2024",
+          "status_str": "Failed"
+        }
+      ],
+      "discover_stats":
+      [
+        {
+          "host_name": "WU4CRYSTAL",
+          "start_time": 1711107719131461,
+          "end_time": 1711107719131461,
+          "operation_status": true,
+          "friendlyname": "WU4CRYSTAL-Src",
+          "jobid": 63,
+          "jobname": "Wave01-WU4CRYSTAL-Src",
+          "original_ip": "192.100.99.215",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 22 11:41:59 2024",
+          "end_timestr": "Fri Mar 22 11:41:59 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:de:e1:75"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1711622817682403,
+          "end_time": 1711622817682403,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 178,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 10:46:57 2024",
+          "end_timestr": "Thu Mar 28 10:46:57 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1711622819533927,
+          "end_time": 1711622819533927,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 179,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 10:46:59 2024",
+          "end_timestr": "Thu Mar 28 10:46:59 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1711647510928000,
+          "end_time": 1711647510928000,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 194,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Thu Mar 28 17:38:30 2024",
+          "end_timestr": "Thu Mar 28 17:38:30 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1711677161431038,
+          "end_time": 1711677161431038,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 195,
+          "jobname": "Wave01-WA4SERVICE-src",
+          "original_ip": "10.110.171.73",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 01:52:41 2024",
+          "end_timestr": "Fri Mar 29 01:52:41 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:e7:0b:ea"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1711691637695417,
+          "end_time": 1711691637695417,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 200,
+          "jobname": "Wave01-WA4STAFF-src",
+          "original_ip": "10.110.171.74",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 05:53:57 2024",
+          "end_timestr": "Fri Mar 29 05:53:57 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:d0:d0:70"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1711695777261853,
+          "end_time": 1711695777261853,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 204,
+          "jobname": "Wave01-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 07:02:57 2024",
+          "end_timestr": "Fri Mar 29 07:02:57 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1711704214626181,
+          "end_time": 1711704214626181,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 241,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 09:23:34 2024",
+          "end_timestr": "Fri Mar 29 09:23:34 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1711704565339972,
+          "end_time": 1711704565339973,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 240,
+          "jobname": "Wave01-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 09:29:25 2024",
+          "end_timestr": "Fri Mar 29 09:29:25 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1711741937968908,
+          "end_time": 1711741937968908,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 287,
+          "jobname": "Wave01-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Fri Mar 29 19:52:17 2024",
+          "end_timestr": "Fri Mar 29 19:52:17 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714376722203892,
+          "end_time": 1714376722203892,
+          "operation_status": true,
+          "friendlyname": "INHWS1DEV1-src02",
+          "jobid": 3611,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src02",
+          "original_ip": "10.110.173.46",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 07:45:22 2024",
+          "end_timestr": "Mon Apr 29 07:45:22 2024",
+          "status_str": "Success",
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1714401533783817,
+          "end_time": 1714401533783817,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 11776,
+          "jobname": "TLTNFSWEBDEV4-Wave-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 14:38:53 2024",
+          "end_timestr": "Mon Apr 29 14:38:53 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHWS1DEV1",
+          "start_time": 1714403196088878,
+          "end_time": 1714403196088878,
+          "operation_status": true,
+          "friendlyname": "INHWS1DEV1-src03",
+          "jobid": 12065,
+          "jobname": "INHWS1DEV1-Wave-INHWS1DEV1-src03",
+          "original_ip": "10.110.173.46",
+          "first_op": true,
+          "user": "admin",
+          "start_timestr": "Mon Apr 29 15:06:36 2024",
+          "end_timestr": "Mon Apr 29 15:06:36 2024",
+          "status_str": "Success",
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHWS1OCIDEV",
+          "start_time": 1714448108629974,
+          "end_time": 1714448108629974,
+          "operation_status": true,
+          "friendlyname": "INHWS1OCIDEV",
+          "jobid": 13368,
+          "jobname": "INHWS1DEV1-Wave-INHWS1OCIDEV",
+          "original_ip": "10.197.177.243",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Tue Apr 30 03:35:08 2024",
+          "end_timestr": "Tue Apr 30 03:35:08 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:11:3b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-dagtl1s",
+          "start_time": 1714448210034551,
+          "end_time": 1714448210034551,
+          "operation_status": true,
+          "friendlyname": "INHWS1OCIDEV",
+          "jobid": 13368,
+          "jobname": "INHWS1DEV1-Wave-INHWS1OCIDEV",
+          "original_ip": "10.197.177.243",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Tue Apr 30 03:36:50 2024",
+          "end_timestr": "Tue Apr 30 03:36:50 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:11:3b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1714651425602529,
+          "end_time": 1714651425602529,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 21557,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  2 12:03:45 2024",
+          "end_timestr": "Thu May  2 12:03:45 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1714651458645182,
+          "end_time": 1714651458645182,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 21558,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  2 12:04:18 2024",
+          "end_timestr": "Thu May  2 12:04:18 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1714655693945527,
+          "end_time": 1714655693945527,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 22122,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  2 13:14:53 2024",
+          "end_timestr": "Thu May  2 13:14:53 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1OCIDEV",
+          "start_time": 1714705292048994,
+          "end_time": 1714705292048994,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 25695,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.90",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May  3 03:01:32 2024",
+          "end_timestr": "Fri May  3 03:01:32 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:01:55:8b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-nrb5bhm",
+          "start_time": 1714705382932470,
+          "end_time": 1714705382932470,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 25695,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.90",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May  3 03:03:02 2024",
+          "end_timestr": "Fri May  3 03:03:02 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:01:55:8b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSOCIDEV",
+          "start_time": 1714705467577449,
+          "end_time": 1714705467577449,
+          "operation_status": true,
+          "friendlyname": "INHFSOCIDEV",
+          "jobid": 25696,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "original_ip": "10.197.177.192",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May  3 03:04:27 2024",
+          "end_timestr": "Fri May  3 03:04:27 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:00:81:7f"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-vqjk9av",
+          "start_time": 1714705562400835,
+          "end_time": 1714705562400836,
+          "operation_status": true,
+          "friendlyname": "INHFSOCIDEV",
+          "jobid": 25696,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "original_ip": "10.197.177.192",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May  3 03:06:02 2024",
+          "end_timestr": "Fri May  3 03:06:02 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:00:81:7f"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1715144240322384,
+          "end_time": 1715144240322384,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 30074,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 04:57:20 2024",
+          "end_timestr": "Wed May  8 04:57:20 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1715144273625403,
+          "end_time": 1715144273625403,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 30075,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 04:57:53 2024",
+          "end_timestr": "Wed May  8 04:57:53 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1715144983501636,
+          "end_time": 1715144983501636,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 30664,
+          "jobname": "Wave-3May24-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 05:09:43 2024",
+          "end_timestr": "Wed May  8 05:09:43 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1OCIDEV",
+          "start_time": 1715151295777185,
+          "end_time": 1715151295777185,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 34214,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.90",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 06:54:55 2024",
+          "end_timestr": "Wed May  8 06:54:55 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:01:55:8b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-hnnn294",
+          "start_time": 1715151405329782,
+          "end_time": 1715151405329782,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 34214,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.90",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 06:56:45 2024",
+          "end_timestr": "Wed May  8 06:56:45 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:01:55:8b"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1OCIDEV-TE",
+          "start_time": 1715153360009380,
+          "end_time": 1715153360009380,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 35363,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "original_ip": "10.197.177.59",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 07:29:20 2024",
+          "end_timestr": "Wed May  8 07:29:20 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:93:08"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-dt4k4d6",
+          "start_time": 1715153447885779,
+          "end_time": 1715153447885779,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 35363,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "original_ip": "10.197.177.59",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 07:30:47 2024",
+          "end_timestr": "Wed May  8 07:30:47 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:93:08"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "",
+          "start_time": 1715159021769301,
+          "end_time": 1715159021769301,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 39368,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "original_ip": "10.197.177.59",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:03:41 2024",
+          "end_timestr": "Wed May  8 09:03:41 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:93:08"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-nphsu6l",
+          "start_time": 1715159131499974,
+          "end_time": 1715159131499974,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV-TESTDUP",
+          "jobid": 39368,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV-TESTDUP",
+          "original_ip": "10.197.177.59",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:05:31 2024",
+          "end_timestr": "Wed May  8 09:05:31 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:93:08"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSOCIDEV",
+          "start_time": 1715160094611179,
+          "end_time": 1715160094611179,
+          "operation_status": true,
+          "friendlyname": "INHFSOCIDEV",
+          "jobid": 39832,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "original_ip": "10.197.177.192",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:21:34 2024",
+          "end_timestr": "Wed May  8 09:21:34 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:00:81:7f"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-rftbltf",
+          "start_time": 1715160212112734,
+          "end_time": 1715160212112734,
+          "operation_status": true,
+          "friendlyname": "INHFSOCIDEV",
+          "jobid": 39832,
+          "jobname": "Wave-3May24-INHFSOCIDEV",
+          "original_ip": "10.197.177.192",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 09:23:32 2024",
+          "end_timestr": "Wed May  8 09:23:32 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:00:81:7f"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1715165603171763,
+          "end_time": 1715165603171763,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 43046,
+          "jobname": "Wave-3May24-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 10:53:23 2024",
+          "end_timestr": "Wed May  8 10:53:23 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1OCIDEV",
+          "start_time": 1715173216163878,
+          "end_time": 1715173216163878,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 45705,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.28",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 13:00:16 2024",
+          "end_timestr": "Wed May  8 13:00:16 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:48:27"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "minint-jiin5lr",
+          "start_time": 1715173304127409,
+          "end_time": 1715173304127410,
+          "operation_status": true,
+          "friendlyname": "AAFWS1OCIDEV",
+          "jobid": 45705,
+          "jobname": "Wave-3May24-AAFWS1OCIDEV",
+          "original_ip": "10.197.177.28",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May  8 13:01:44 2024",
+          "end_timestr": "Wed May  8 13:01:44 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "02:00:17:02:48:27"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1715220681490289,
+          "end_time": 1715220681490289,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 46245,
+          "jobname": "Wave01-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:11:21 2024",
+          "end_timestr": "Thu May  9 02:11:21 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1715220693880939,
+          "end_time": 1715220693880939,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 46244,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:11:33 2024",
+          "end_timestr": "Thu May  9 02:11:33 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1715221064929498,
+          "end_time": 1715221064929498,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 46305,
+          "jobname": "Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 02:17:44 2024",
+          "end_timestr": "Thu May  9 02:17:44 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1715225719614647,
+          "end_time": 1715225719614647,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 47544,
+          "jobname": "Wave01-WA4SERVICE-src",
+          "original_ip": "10.110.171.73",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 03:35:19 2024",
+          "end_timestr": "Thu May  9 03:35:19 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:e7:0b:ea"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1715225724855056,
+          "end_time": 1715225724855056,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 47545,
+          "jobname": "Wave01-WA4STAFF-src",
+          "original_ip": "10.110.171.74",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 03:35:24 2024",
+          "end_timestr": "Thu May  9 03:35:24 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:d0:d0:70"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715235024988665,
+          "end_time": 1715235024988665,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 48142,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:10:24 2024",
+          "end_timestr": "Thu May  9 06:10:24 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715235028055111,
+          "end_time": 1715235028055111,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 48140,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:10:28 2024",
+          "end_timestr": "Thu May  9 06:10:28 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715235031071899,
+          "end_time": 1715235031071899,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 48141,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 06:10:31 2024",
+          "end_timestr": "Thu May  9 06:10:31 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715245960819802,
+          "end_time": 1715245960819802,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 49218,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 09:12:40 2024",
+          "end_timestr": "Thu May  9 09:12:40 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715251709449141,
+          "end_time": 1715251709449141,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 50636,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May  9 10:48:29 2024",
+          "end_timestr": "Thu May  9 10:48:29 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715306682163416,
+          "end_time": 1715306682163416,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 50968,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:04:42 2024",
+          "end_timestr": "Fri May 10 02:04:42 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715306684096099,
+          "end_time": 1715306684096099,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 50966,
+          "jobname": "Wave01-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:04:44 2024",
+          "end_timestr": "Fri May 10 02:04:44 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715306708247262,
+          "end_time": 1715306708247262,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 50967,
+          "jobname": "Wave01-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May 10 02:05:08 2024",
+          "end_timestr": "Fri May 10 02:05:08 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715395236312807,
+          "end_time": 1715395236312807,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 54602,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:40:36 2024",
+          "end_timestr": "Sat May 11 02:40:36 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715395252047097,
+          "end_time": 1715395252047097,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 54609,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:40:52 2024",
+          "end_timestr": "Sat May 11 02:40:52 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715395254959396,
+          "end_time": 1715395254959396,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 54608,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 02:40:54 2024",
+          "end_timestr": "Sat May 11 02:40:54 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715396918592543,
+          "end_time": 1715396918592543,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 54835,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:08:38 2024",
+          "end_timestr": "Sat May 11 03:08:38 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715397162029518,
+          "end_time": 1715397162029518,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 54869,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:12:42 2024",
+          "end_timestr": "Sat May 11 03:12:42 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715398177747357,
+          "end_time": 1715398177747357,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55006,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:29:37 2024",
+          "end_timestr": "Sat May 11 03:29:37 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715398479753783,
+          "end_time": 1715398479753783,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 55048,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:34:39 2024",
+          "end_timestr": "Sat May 11 03:34:39 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715399377159635,
+          "end_time": 1715399377159636,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55289,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:49:37 2024",
+          "end_timestr": "Sat May 11 03:49:37 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715399741241623,
+          "end_time": 1715399741241623,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 55441,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 03:55:41 2024",
+          "end_timestr": "Sat May 11 03:55:41 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715400097906424,
+          "end_time": 1715400097906424,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 55597,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 04:01:37 2024",
+          "end_timestr": "Sat May 11 04:01:37 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715400843454565,
+          "end_time": 1715400843454565,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 55919,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 04:14:03 2024",
+          "end_timestr": "Sat May 11 04:14:03 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715407149682527,
+          "end_time": 1715407149682527,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 57311,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 05:59:09 2024",
+          "end_timestr": "Sat May 11 05:59:09 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715418668433293,
+          "end_time": 1715418668433293,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 58067,
+          "jobname": "Wave-3May24-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:11:08 2024",
+          "end_timestr": "Sat May 11 09:11:08 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715418674071939,
+          "end_time": 1715418674071939,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 58068,
+          "jobname": "Wave-3May24-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:11:14 2024",
+          "end_timestr": "Sat May 11 09:11:14 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715420002944241,
+          "end_time": 1715420002944241,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 58248,
+          "jobname": "Wave01-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 09:33:22 2024",
+          "end_timestr": "Sat May 11 09:33:22 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715423639090012,
+          "end_time": 1715423639090012,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 59070,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:33:59 2024",
+          "end_timestr": "Sat May 11 10:33:59 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715423646318436,
+          "end_time": 1715423646318436,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 59071,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:34:06 2024",
+          "end_timestr": "Sat May 11 10:34:06 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715423669041183,
+          "end_time": 1715423669041183,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 59097,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 10:34:29 2024",
+          "end_timestr": "Sat May 11 10:34:29 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1715439684013047,
+          "end_time": 1715439684013047,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 60528,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:01:24 2024",
+          "end_timestr": "Sat May 11 15:01:24 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1715440387509831,
+          "end_time": 1715440387509831,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 60689,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "original_ip": "10.110.171.73",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:13:07 2024",
+          "end_timestr": "Sat May 11 15:13:07 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:e7:0b:ea"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1715440389088415,
+          "end_time": 1715440389088416,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 60690,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "original_ip": "10.110.171.74",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:13:09 2024",
+          "end_timestr": "Sat May 11 15:13:09 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:d0:d0:70"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1715440422039387,
+          "end_time": 1715440422039387,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 60691,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:13:42 2024",
+          "end_timestr": "Sat May 11 15:13:42 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1715440425413562,
+          "end_time": 1715440425413562,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 60688,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:13:45 2024",
+          "end_timestr": "Sat May 11 15:13:45 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1715440434758031,
+          "end_time": 1715440434758031,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 60692,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:13:54 2024",
+          "end_timestr": "Sat May 11 15:13:54 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1715440938121073,
+          "end_time": 1715440938121073,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 60796,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:22:18 2024",
+          "end_timestr": "Sat May 11 15:22:18 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1715440947190761,
+          "end_time": 1715440947190761,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 60797,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 11 15:22:27 2024",
+          "end_timestr": "Sat May 11 15:22:27 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715567832525003,
+          "end_time": 1715567832525003,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 61072,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:37:12 2024",
+          "end_timestr": "Mon May 13 02:37:12 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1715567834354930,
+          "end_time": 1715567834354930,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 61074,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:37:14 2024",
+          "end_timestr": "Mon May 13 02:37:14 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715567839498427,
+          "end_time": 1715567839498428,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 61073,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 02:37:19 2024",
+          "end_timestr": "Mon May 13 02:37:19 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1715569393868160,
+          "end_time": 1715569393868160,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 61425,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 03:03:13 2024",
+          "end_timestr": "Mon May 13 03:03:13 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715573469381871,
+          "end_time": 1715573469381871,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 62812,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 04:11:09 2024",
+          "end_timestr": "Mon May 13 04:11:09 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715575541778690,
+          "end_time": 1715575541778690,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 63135,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 04:45:41 2024",
+          "end_timestr": "Mon May 13 04:45:41 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715577667815075,
+          "end_time": 1715577667815075,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 63419,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 13 05:21:07 2024",
+          "end_timestr": "Mon May 13 05:21:07 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715878888665844,
+          "end_time": 1715878888665844,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65113,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May 16 17:01:28 2024",
+          "end_timestr": "Thu May 16 17:01:28 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1715965288921619,
+          "end_time": 1715965288921619,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65116,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May 17 17:01:28 2024",
+          "end_timestr": "Fri May 17 17:01:28 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1716044470448834,
+          "end_time": 1716044470448834,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 65121,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "original_ip": "10.110.171.73",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:01:10 2024",
+          "end_timestr": "Sat May 18 15:01:10 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:e7:0b:ea"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1716044472495337,
+          "end_time": 1716044472495337,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 65122,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "original_ip": "10.110.171.74",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:01:12 2024",
+          "end_timestr": "Sat May 18 15:01:12 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:d0:d0:70"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1716044481593212,
+          "end_time": 1716044481593212,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 65119,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:01:21 2024",
+          "end_timestr": "Sat May 18 15:01:21 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1716044501666558,
+          "end_time": 1716044501666558,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 65123,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:01:41 2024",
+          "end_timestr": "Sat May 18 15:01:41 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1716044509842505,
+          "end_time": 1716044509842505,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 65120,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:01:49 2024",
+          "end_timestr": "Sat May 18 15:01:49 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1716044525185907,
+          "end_time": 1716044525185907,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 65124,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 15:02:05 2024",
+          "end_timestr": "Sat May 18 15:02:05 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716051696098801,
+          "end_time": 1716051696098801,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65127,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 18 17:01:36 2024",
+          "end_timestr": "Sat May 18 17:01:36 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716138100847637,
+          "end_time": 1716138100847637,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65130,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sun May 19 17:01:40 2024",
+          "end_timestr": "Sun May 19 17:01:40 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716224494758623,
+          "end_time": 1716224494758623,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65133,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 20 17:01:34 2024",
+          "end_timestr": "Mon May 20 17:01:34 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716310889457008,
+          "end_time": 1716310889457008,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65346,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Tue May 21 17:01:29 2024",
+          "end_timestr": "Tue May 21 17:01:29 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716397294570005,
+          "end_time": 1716397294570005,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65349,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Wed May 22 17:01:34 2024",
+          "end_timestr": "Wed May 22 17:01:34 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716483684299488,
+          "end_time": 1716483684299488,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65390,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Thu May 23 17:01:24 2024",
+          "end_timestr": "Thu May 23 17:01:24 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716570078247331,
+          "end_time": 1716570078247331,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65465,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Fri May 24 17:01:18 2024",
+          "end_timestr": "Fri May 24 17:01:18 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4SERVICE",
+          "start_time": 1716649272021331,
+          "end_time": 1716649272021331,
+          "operation_status": true,
+          "friendlyname": "WA4SERVICE-src",
+          "jobid": 65470,
+          "jobname": "DR-Weekly-Wave01-WA4SERVICE-src",
+          "original_ip": "10.110.171.73",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:12 2024",
+          "end_timestr": "Sat May 25 15:01:12 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:e7:0b:ea"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "WA4STAFF",
+          "start_time": 1716649280024238,
+          "end_time": 1716649280024238,
+          "operation_status": true,
+          "friendlyname": "WA4STAFF-src",
+          "jobid": 65471,
+          "jobname": "DR-Weekly-Wave01-WA4STAFF-src",
+          "original_ip": "10.110.171.74",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:20 2024",
+          "end_timestr": "Sat May 25 15:01:20 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:d0:d0:70"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFWS1DEV4",
+          "start_time": 1716649284372177,
+          "end_time": 1716649284372177,
+          "operation_status": true,
+          "friendlyname": "AAFWS1DEV4-src",
+          "jobid": 65468,
+          "jobname": "DR-Weekly-Wave01-AAFWS1DEV4-src",
+          "original_ip": "10.110.173.40",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:24 2024",
+          "end_timestr": "Sat May 25 15:01:24 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a7:ba:81"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSWEBDEV4",
+          "start_time": 1716649305179339,
+          "end_time": 1716649305179339,
+          "operation_status": true,
+          "friendlyname": "TLTNFSWEBDEV4-src",
+          "jobid": 65472,
+          "jobname": "DR-Weekly-Wave01-TLTNFSWEBDEV4-src",
+          "original_ip": "10.110.171.156",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:45 2024",
+          "end_timestr": "Sat May 25 15:01:45 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:23:8e:77"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "TLTNFSSRVDEV4",
+          "start_time": 1716649306882321,
+          "end_time": 1716649306882321,
+          "operation_status": true,
+          "friendlyname": "TLTNFSSRVDEV4-src",
+          "jobid": 65473,
+          "jobname": "DR-Weekly-Wave01-TLTNFSSRVDEV4-src",
+          "original_ip": "10.110.171.155",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:46 2024",
+          "end_timestr": "Sat May 25 15:01:46 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:aa:63:03"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "INHFSDEV1",
+          "start_time": 1716649316051415,
+          "end_time": 1716649316051415,
+          "operation_status": true,
+          "friendlyname": "INHFSDEV1-src",
+          "jobid": 65469,
+          "jobname": "DR-Weekly-Wave01-INHFSDEV1-src",
+          "original_ip": "10.110.173.39",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 15:01:56 2024",
+          "end_timestr": "Sat May 25 15:01:56 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:96:6c:a4"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716656482631582,
+          "end_time": 1716656482631582,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65475,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sat May 25 17:01:22 2024",
+          "end_timestr": "Sat May 25 17:01:22 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716742880788460,
+          "end_time": 1716742880788460,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65478,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Sun May 26 17:01:20 2024",
+          "end_timestr": "Sun May 26 17:01:20 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA3DEV4",
+          "start_time": 1716829282882057,
+          "end_time": 1716829282882057,
+          "operation_status": true,
+          "friendlyname": "AAFBA3DEV4-src",
+          "jobid": 65590,
+          "jobname": "Fixed-Wave-AAFBA3DEV4-src",
+          "original_ip": "10.110.171.123",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:01:22 2024",
+          "end_timestr": "Mon May 27 17:01:22 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:ac:13:41"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA1DEV4",
+          "start_time": 1716829308647361,
+          "end_time": 1716829308647361,
+          "operation_status": true,
+          "friendlyname": "AAFBA1DEV4-src",
+          "jobid": 65592,
+          "jobname": "Fixed-Wave-AAFBA1DEV4-src",
+          "original_ip": "10.110.171.121",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:01:48 2024",
+          "end_timestr": "Mon May 27 17:01:48 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:82:0b:a6"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        },
+        {
+          "host_name": "AAFBA2DEV4",
+          "start_time": 1716829316012667,
+          "end_time": 1716829316012667,
+          "operation_status": true,
+          "friendlyname": "AAFBA2DEV4-src",
+          "jobid": 65591,
+          "jobname": "Fixed-Wave-AAFBA2DEV4-src",
+          "original_ip": "10.110.171.122",
+          "first_op": false,
+          "user": "admin",
+          "start_timestr": "Mon May 27 17:01:56 2024",
+          "end_timestr": "Mon May 27 17:01:56 2024",
+          "status_str": "Success",
+          "mac":
+          [
+            "50:6b:8d:a0:9e:30"
+          ],
+          "stat_identifier": "691428f872db4b-7628f78c-4e22-b587-4bfbeda06ffe8e65533f9824"
+        }
+      ],
+      "hub_operation": false
+    }
+  }
+]

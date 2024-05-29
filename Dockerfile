@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY main.py .
 
-CMD ["python3", "main.py"]
+ENTRYPOINT ["python3", "main.py"]
